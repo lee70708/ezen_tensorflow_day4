@@ -2,22 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca0a249b-36d8-49bc-838e-01ad7807439d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chap_3_decision_tree/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap_3_decision_tree/ram_price.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap_4_ensemble/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap_4_ensemble/iris_ensemble.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap_5_softmax/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap_5_softmax/mammal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap_6_opencv/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap_6_opencv/lena.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap_6_opencv/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap_6_sklearn/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap_6_sklearn/spam_checker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap_8_naive_bayes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap_8_naive_bayes/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ham/0007.1999-12-14.farmer.ham.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spam/0058.2003-12-21.GP.spam.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap_10_kmean/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap_10_kmean/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap_9_titanic/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap_9_titanic/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chap_9_titanic/trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap_8_naive_bayes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap_8_naive_bayes/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap_8_naive_bayes/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap_8_naive_bayes/model.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,51 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chap_2_svm/modeling.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chap_4_ensemble/iris_ensemble.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="655">
-              <caret line="43" column="56" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chap_5_softmax/mammal.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chap_6_opencv/model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="18" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chap_6_sklearn/spam_checker.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -84,14 +33,75 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chap_8_naive_bayes/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+            <state relative-caret-position="417">
+              <caret line="66" column="29" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chap_9_titanic/model.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chap_9_titanic/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chap_9_titanic/trainer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="289" lean-forward="true" selection-start-line="289" selection-end-line="289" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/envs/tensorflow/Lib/codecs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="320" selection-start-line="320" selection-end-line="320" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/envs/tensorflow/Lib/site-packages/sklearn/tree/tree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="241" column="71" lean-forward="true" selection-start-line="241" selection-start-column="71" selection-end-line="241" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chap_10_kmean/model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="74" column="45" selection-start-line="74" selection-start-column="45" selection-end-line="74" selection-end-column="45" />
+              <folding>
+                <element signature="e#50#68#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chap_8_naive_bayes/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -103,21 +113,6 @@
               <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chap_6_sklearn/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chap_0/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chap_6_opencv/lena.jpg">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -134,6 +129,9 @@
       <find>data</find>
       <find>targetnames</find>
       <find>y_</find>
+      <find>doc</find>
+      <find>class0</find>
+      <find>acc</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -157,6 +155,9 @@
         <option value="$PROJECT_DIR$/chap_6_opencv/__init__.py" />
         <option value="$PROJECT_DIR$/chap_6_sklearn/spam_checker.py" />
         <option value="$PROJECT_DIR$/chap_8_naive_bayes/model.py" />
+        <option value="$PROJECT_DIR$/chap_8_naive_bayes/__init__.py" />
+        <option value="$PROJECT_DIR$/chap_9_titanic/trainer.py" />
+        <option value="$PROJECT_DIR$/chap_10_kmean/model.py" />
       </list>
     </option>
   </component>
@@ -183,52 +184,7 @@
             <path>
               <item name="test4" type="b2602c69:ProjectViewProjectNode" />
               <item name="test4" type="462c0819:PsiDirectoryNode" />
-              <item name="chap_0" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test4" type="462c0819:PsiDirectoryNode" />
-              <item name="chap_1_word2vec" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test4" type="462c0819:PsiDirectoryNode" />
-              <item name="chap_2_svm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test4" type="462c0819:PsiDirectoryNode" />
-              <item name="chap_3_decision_tree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test4" type="462c0819:PsiDirectoryNode" />
-              <item name="chap_4_ensemble" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test4" type="462c0819:PsiDirectoryNode" />
-              <item name="chap_5_softmax" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test4" type="462c0819:PsiDirectoryNode" />
-              <item name="chap_6_opencv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test4" type="462c0819:PsiDirectoryNode" />
-              <item name="chap_6_sklearn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test4" type="462c0819:PsiDirectoryNode" />
-              <item name="chap_8_naive_bayes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test4" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="chap_10_kmean" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -250,6 +206,7 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ezen\PycharmProjects\test4\data" />
+      <recent name="C:\Users\ezen\PycharmProjects\test4\chap_9_titanic" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -264,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.model (1)">
+  <component name="RunManager" selected="Python.model (2)">
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test4" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -328,27 +285,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mammal" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="test4" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap_5_softmax" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap_5_softmax/mammal.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="model (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test4" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -370,7 +306,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="model (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test4" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -378,11 +314,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap_6_opencv" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap_10_kmean" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap_6_opencv/model.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap_10_kmean/model.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -412,13 +348,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="trainer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chap_9_titanic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chap_9_titanic/trainer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.model (2)" />
+        <item itemvalue="Python.trainer" />
         <item itemvalue="Python.model (1)" />
         <item itemvalue="Python.spam_checker" />
         <item itemvalue="Python.__init__" />
-        <item itemvalue="Python.model" />
-        <item itemvalue="Python.mammal" />
       </list>
     </recent_temporary>
   </component>
@@ -461,17 +418,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1691254" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Version Control" weight="0.329718" />
+      <window_info anchor="bottom" id="Python Console" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" weight="0.3286334" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -518,6 +476,26 @@
           <url>file://$PROJECT_DIR$/chap_4_ensemble/iris_ensemble.py</url>
           <line>19</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chap_9_titanic/trainer.py</url>
+          <line>303</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chap_9_titanic/trainer.py</url>
+          <line>260</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chap_9_titanic/trainer.py</url>
+          <line>290</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chap_10_kmean/model.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -670,12 +648,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chap_8_naive_bayes/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/test.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/chap_8_naive_bayes/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+        <state relative-caret-position="417">
+          <caret line="66" column="29" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chap_9_titanic/model.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../day1/titanic/model.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chap_9_titanic/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/tensorflow/Lib/site-packages/sklearn/utils/validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="234" selection-start-line="234" selection-end-line="234" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chap_9_titanic/trainer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="289" lean-forward="true" selection-start-line="289" selection-end-line="289" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/tensorflow/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="320" selection-start-line="320" selection-end-line="320" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/tensorflow/Lib/site-packages/sklearn/tree/tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="241" column="71" lean-forward="true" selection-start-line="241" selection-start-column="71" selection-end-line="241" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chap_10_kmean/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="74" column="45" selection-start-line="74" selection-start-column="45" selection-end-line="74" selection-end-column="45" />
+          <folding>
+            <element signature="e#50#68#0" expanded="true" />
           </folding>
         </state>
       </provider>

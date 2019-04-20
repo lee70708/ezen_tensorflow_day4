@@ -34,3 +34,35 @@ class NaiveByesClassfier:
                  (class0 + k) / (total_class0 + 2 * k),
                  (class1 + k) / (total_class1 + 2 * k))
                 for w, (class0, class1) in counts.items()]
+
+    def class_probability(self, word_probs, doc):
+        docwords = doc.split() # 별도 토크나이즈 없이 띄어쓰기만 적용해서 분리
+        log_prob_if_class0 = log_prob_if_class1 = 0.0 # 초기화
+        for word, prob_if_class0, prob_if_class1 in word_probs:
+            # 만약 리뷰에 word가 나타나면 해당 단어가 나올 log 에 확률을 더해줌
+            if word in docwords:
+                log_prob_if_class0 += math.log(prob_if_class0)
+                log_prob_if_class1 += math.log(prob_if_class1)
+            # 만약 리뷰에 word가 나타나지 않으면
+            # 해당 단어가 나온지 않을 log 에 확률을 더해줌
+            # 나오지 않을 확률은 log(1-나올확률)로 계산
+
+            else:
+                log_prob_if_class0 += math.exp(log_prob_if_class0)
+                log_prob_if_class1 += math.exp(log_prob_if_class1)
+
+        prob_if_class0 = math.exp(log_prob_if_class0)
+        prob_if_class1 = math.exp(log_prob_if_class1)
+        return prob_if_class0 / (prob_if_class0 + prob_if_class1)
+
+    def train(self, trainfile_path):
+        training_set = self.load_corpus(trainfile_path)
+        # 범주 0 (긍정) 과 범주 1(부정) 문서의 수를 세어줌
+        num_class0 = len([1 for _, point in training_set if point > 3.5])
+        num_class1 = len(training_set) - num_class0
+        word_counts = self.count_words(training_set)
+        self.word_probs = self.word_probabilities(word_counts, num_class0, num_class1, self.k)
+
+    def classify(self, doc):
+        return self.class_probability(self.word_probs, doc)
+
